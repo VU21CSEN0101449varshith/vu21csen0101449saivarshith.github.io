@@ -1,0 +1,20 @@
+.container {
+  display: flex; /* Make the container a flexbox */
+}
+
+.left-side {
+  width: 200px; /* Set the width of the left side */
+  background-color: yellow; /* Add a background color */
+  padding: 10px; /* Add padding for the image */
+}
+
+.left-side img {
+  width: 100%; /* Make the image fit the width of the left side */
+  height: auto; /* Maintain the image aspect ratio */
+}
+
+.main-content {
+  flex: 1; /* Allow the main content to fill the remaining space */
+  padding: 20px; /* Add padding for the content */
+  background-color: cyan; /* Set the background color of the main content to blue */
+}
